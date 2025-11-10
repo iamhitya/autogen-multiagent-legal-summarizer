@@ -1,7 +1,7 @@
-# AutoGen.MultiAgent.Legal.Summarizer - Legal Document Summarization Agents
+# AutoGen MultiAgent Legal Document Summarization
 
 ## Overview
-A minimal .NET 9 console application that demonstrates a multi-agent workflow (inspired by the AutoGen framework) for summarizing lengthy legal documents.
+A minimal .NET 9 console application that demonstrates a multi-agent workflow (AutoGen framework) for summarizing lengthy legal documents.
 
 Three specialized agents collaborate:
 1. Extractor Agent – Reads a legal document and extracts key sections (e.g., clauses, definitions, termination, liabilities) using simple heuristics.
@@ -16,7 +16,7 @@ Agents communicate via an in-memory message bus, mimicking inter-agent chat coor
 
 ## Requirements
 - .NET 9 SDK
-- (Optional) Azure OpenAI or OpenAI credentials
+- Azure OpenAI or OpenAI credentials
 
 ## Configuration
 Default backend: Azure OpenAI (model: `gpt-4o-mini`). You can switch to OpenAI via environment variables. If neither is configured, a heuristic summarizer is used.
