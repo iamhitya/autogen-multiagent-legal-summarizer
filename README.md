@@ -67,7 +67,7 @@ dotnet build
 dotnet run -- ./sample/legal_contract.txt
 
 # Or run without args to use the embedded demo text
-dotnet run --
+dotnet run
 ```
 
 ## Output
